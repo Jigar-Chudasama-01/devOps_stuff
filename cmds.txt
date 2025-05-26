@@ -1,0 +1,23 @@
+egrep "Hi|Jigar" Hello.txt
+find /path -name file.txt
+alias l="ls -ltr"
+alias -p => to check all aliases
+
+curl https://meowfacts.herokuapp.com/ => to call an API
+wget http://Hi.pdf => to download a file from net
+systemctl list-units --type=service --all
+printenv
+
+du => disk utilization of current folder
+df => overall utilization of memory
+free => check free main memory
+lscpu => check system info
+pgrep => find process id
+
+#!/bin/bash => executer of programs
+
+trap 'echo "cleanup done"' INT
+=> INT is signal for ctrl+c, command written in '' next to trap is executed when INT signal is caught.
+
+echo $? => check exit status of previous command 0/1
+nohup => run the bash file in background

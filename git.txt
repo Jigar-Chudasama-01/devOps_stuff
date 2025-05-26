@@ -1,0 +1,7 @@
+git show log_ID => check other commit version of file
+git checkout log_ID file.txt => change to different version of commit for file.txt
+git restore --staged file.txt	=> Unstage  file.txt from staging area
+
+git reset --hard HEAD^ => uncommit and delete changes from previous commit
+git reset --soft HEAD^ => uncommit
+git clean => to remove untracked files from directory

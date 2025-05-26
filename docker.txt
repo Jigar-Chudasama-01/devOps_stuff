@@ -1,0 +1,22 @@
+Docker architecture
+
+Docker Engine
+Docker Daemon -> containerd
+Docker CLI
+Docker client
+Docker registry
+
+docker inspect container_name => to check ip addresses
+docker-compose.yaml => YAML based file
+
+docker-compose up
+docker-compose down
+
+docker add : copy files from any URL
+docker cmd and entrypoint
+
+docker network modes
+bridge => default network mode in docker. allows docker and host networks to communicate with each other.
+host neworking => allows container to gain host system's network
+MACvlan => allows docker to appear as physical host rather than as a container
+overlay => allows docker containers to be connected on same network when containers are from different hosts 

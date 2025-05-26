@@ -1,0 +1,8 @@
+IT automation tool
+Agentless architecture 
+controller node needs ssh access to managed nodes.
+uses YAML for syntax
+ansible ad hoc tasks => one liner playbooks
+to run specific module from a playbook use ansible tags, and mention them in modules 
+handlers => if then
+ansible localhost -m setup

@@ -1,0 +1,1 @@
+YAML -> Ansible -> Docker(podman) -> linux Commands -> shell scripting

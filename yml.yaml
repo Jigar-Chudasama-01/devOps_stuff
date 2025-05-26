@@ -1,0 +1,27 @@
+---
+Student:
+  - Student1:
+      name: "Jigar"
+      age: 20
+      passed: true
+#this is how you denote list
+      subjects:
+        - Mafs
+        - siuns
+# list which contains dictionary
+      marks:
+        - mafs: 86
+        - siuns: 82
+  - Student2:
+    name: "not Jigar"
+    age: 20
+    passed: true
+#this is how you denote list
+    subjects:
+      - Mafs
+      - siuns
+# list which contains dictionary
+    marks:
+      - mafs: 86
+      - siuns: 82
+
