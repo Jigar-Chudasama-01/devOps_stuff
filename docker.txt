@@ -9,11 +9,12 @@ Docker registry
 docker inspect container_name => to check ip addresses
 docker-compose.yaml => YAML based file
 
-docker-compose up
+docker-compose up`
 docker-compose down
 
 docker add : copy files from any URL
 docker cmd and entrypoint
+cmd arguments can be overriden but not entrypoint. they can be also using --entrypoint
 
 docker network modes
 bridge => default network mode in docker. allows docker and host networks to communicate with each other.

@@ -21,3 +21,17 @@ trap 'echo "cleanup done"' INT
 
 echo $? => check exit status of previous command 0/1
 nohup => run the bash file in background
+
+
+---find command---
+find /home/jigar -size +10k => find files in /home/jigar with size of bigger than 10kb
+find /home/jigar -type d/l/f/b
+find /home/jigar -name '*.bash'
+find . -links 3 => find files with 3 links
+find /home -perm 777
+find /home -name '[a-z]*' => find files/directories which start with lower letter names
+find /home -empty -exec rm {} \;
+
+
+cd /root/ 2>error_file => redirect error to error_file
+wc -l < archiever.bash => feed content of archiever.bash to wc -l
